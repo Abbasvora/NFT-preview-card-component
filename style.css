@@ -1,0 +1,112 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: white;
+    transition: all 0.5s;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 275px;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.main-img {
+    width: 275px;
+    margin-top: 8px;
+    border-radius: 15px;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.row img {
+    width: 11px;
+    margin-bottom: 5px;
+}
+
+.balance {
+    color: hsl(178, 100%, 50%);
+    margin-left: 4px;
+    justify-items: start;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.clock {
+    width: 40px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.creation {
+    display: flex;
+}
+
+.creation img {
+    width: 40px;
+    height: 40px;
+    border: 1.6px solid white;
+    border-radius: 50%;
+}
+
+.creation p {
+    margin-left: 10px;
+    align-self: flex-end;
+}
+
+.creation span {
+    color: white;
+    transition: all 0.5s;
+}
+
+.creation span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 5px;
+}
